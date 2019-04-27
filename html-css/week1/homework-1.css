@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px; 
+}
+h2{
+    color:green;
+}
+h1{
+   position:fixed;
+   padding-left:40%;
+}
+#goal{
+    font-size:20px;
+} 
+img{
+border:solid 5px;
+
+}
