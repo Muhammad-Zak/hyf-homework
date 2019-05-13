@@ -1,0 +1,36 @@
+.logo {
+    font-size: 20px;
+    width: 34px;
+    margin: 1em;
+    padding: 24px;
+    background-color: gray;
+  
+}
+.navigation {
+    font-size: 20px;
+    width: 200px;
+    margin: 1em;
+    padding: 24px;
+    background-color: gray;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+h1 {
+    padding-bottom: 50px;
+}
+.item{
+    padding-bottom: 20px;
+}
+p {
+    width: 76%;
+}
+input[type=checkbox]:checked ~ .shipping-toggle{
+    display: flex;
+}
+.shipping-toggle{
+    display: none;
+}
+.payment {
+    display: flex;
+}

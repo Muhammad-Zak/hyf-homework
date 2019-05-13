@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>page4</title>
+    <link rel="stylesheet" href="week3.css">
+</head>
+<body>
+       
+        <div class="logo">
+                <p>logo</p>
+              </div>
+              <div class="navigation"> <p>navigation</p>
+              </div>
+              <h1>Sign up to yourcustomtailor.com</h1>
+              <h2>
+                    Step 4/4 - how can we reach you?
+              </h2>
+              <div class="item">
+                    <label for="sign-in progress">progrees</label>
+                    <progress value="4" max="5"></progress>
+                </div>
+                <p>Please fill in your payment data
+
+                </p>
+                <label for="card-name">
+                        Name on the card*
+                    </label>
+                    <input
+                    type="text" requiered maxlength="30"
+                    id="singup-firstname"
+                    name="Name of the card">
+                    <label for="payment__card-type">
+                            Card type*
+                            <select name="card-type" id="payment__card-type" required>
+                                <option value="visa" selected>Visa</option>
+                                <option value="master">Master</option>
+                                <option value="amex">Amex</option>
+                            </select>
+                        </label>
+                        <label for="payment__card-number">
+                                Credit card number
+                                <input type="tel" name="card-number" id="payment__card-number" required
+                                   >
+                                   <label for="payment__first-name">
+                                        First name
+                                        <input type="text" name="first-name" id="payment__first-name" required>
+                                    </label>
+                                    <label for="payment__date">
+                                            Expiry date>
+                                            <input type="month" id="start" name="payment__date" required>
+                                        </label>
+                                        <label for="payment__ccv">
+                                                CCV
+                                                <input type="tel" name="ccv" id="payment__ccv" pattern="\d{3}" maxlength="3" required>
+                                                <a href="wff">
+                                                <button type="”submit”">finish</button>
+                                            </a>
+</body>
+</html>
