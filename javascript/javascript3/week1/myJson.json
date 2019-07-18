@@ -1,0 +1,35 @@
+{
+  "musices":[{
+    "singer": "sia",
+    "song": "Guines",
+    "duration": 6
+  },
+  {
+    "singer": "ED Shareen",
+    "song": "shape of you",
+    "duration": 3.5
+  },
+  {
+    "singer": "Daughter",
+    "song": "Youth",
+    "duration": 4.2
+  }],
+  "sports":{
+    "football":[{
+      "player": "Cristiano Ronaldo",
+      "age": "33",
+      "club":"Juventus"
+      },
+      {
+        "player": "Lionel Messi",
+        "age": "31",
+        "club": "Barcelona"
+        }],
+    "basketball":[
+      {
+        "player": "Stephen Curry",
+        "age": "30",
+        "club": "Golden State Warriors"
+        }]
+    }
+}
